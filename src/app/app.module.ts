@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PopularNowComponent } from './popular-now/popular-now.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PopularNowComponent
   ],
   imports: [
     BrowserModule
