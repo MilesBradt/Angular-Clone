@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PopularNowComponent } from './popular-now/popular-now.component';
 import { ItemsComponent } from './items/items.component';
 import { UsersComponent } from './users/users.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { UsersComponent } from './users/users.component';
     AppComponent,
     PopularNowComponent,
     ItemsComponent,
-    UsersComponent
+    UsersComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule
