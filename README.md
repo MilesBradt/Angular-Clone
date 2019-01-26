@@ -4,15 +4,38 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 ## Description
 So far this is only a small framework for the homepage of [Etsy](https://www.etsy.com/) built in Angular
 
+## What this includes
+So far this is a none interactive webpage with basic components fitted together
+
 ## WIP plans
 
-* Actual databases to store mock users and items for the website to work with
+* Proper communication between components
 
 * Routing to view more information on items and mock cart to checkout
 
-* CSS styling to further match Etsy
+* Actual databases to store mock users and items for the website to work with
 
-* Proper image edits 
+* CSS styling
+
+* Proper image edits
+
+## How to get there
+Next steps include:
+  * Having reviews pull users and item value from their own components rather than copy them
+
+  * Adding extra items and users
+
+  * Add routing to see further item/user details
+
+  * Add search feature to route to item details (might only be exact name of item)
+
+  * Add shop for gifts bar with mock items
+
+  * Create database for mock items and users, translate to work with website
+
+  * Possible other ideas as they come
+
+  * CSS styling and image editing
 
 ## How to run
 
