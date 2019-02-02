@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemService } from '../item.service'
+import { Item } from '../items/models/item.model';
 
 @Component({
   selector: 'app-popular-now',
@@ -9,7 +10,7 @@ import { ItemService } from '../item.service'
 })
 
 export class PopularNowComponent implements OnInit {
-  items: Item [];
+  items: Item[];
   constructor(private itemService: ItemService) { }
 
   ngOnInit() {
