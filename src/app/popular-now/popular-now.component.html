@@ -4,7 +4,7 @@
     <div class="row">
       <div class=" games col-sm-2">
         <img width="150" src="../assets/images/Celeste.png" alt="">
-        Game: {{items[0].name}}
+        Game: <a (click)="goToDetailPage(items[0])"> {{items[0].name}} </a>
         <br>
         Category: {{items[0].category}}
         <br>
