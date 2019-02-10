@@ -1,3 +1,12 @@
-#popular-now {
+#popular-title {
   text-align: center;
+}
+
+#popular-now {
+  margin: 0 auto;
+  display: flex;
+}
+
+.games {
+  margin: 0 auto;
 }
