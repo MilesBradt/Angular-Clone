@@ -8,7 +8,7 @@ const appRoutes: Routes = [
     path: '',
     component: HomeComponent
   }, {
-    path: 'game/:id',
+    path: 'game/:name',
     component: GameComponent
   }
 ];
