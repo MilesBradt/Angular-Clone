@@ -6,4 +6,5 @@ export const ITEMS: Item [] = [
   new Item("Super Mario 64", "70 Star",  "Placeholder"),
   new Item("Ocarina of Time", "No im/ww",  "Placeholder"),
   new Item("Paper Mario", "Glitchless",  "Placeholder"),
+
 ]
