@@ -9,6 +9,7 @@ import { UsersComponent } from './users/users.component';
 import { SearchComponent } from './search/search.component';
 import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
+import { GameComponent } from './game/game.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { routing } from './app.routing';
     ItemsComponent,
     UsersComponent,
     SearchComponent,
-    HomeComponent
+    HomeComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
