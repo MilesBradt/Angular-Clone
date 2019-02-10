@@ -11,4 +11,12 @@ export class ItemService {
     return ITEMS;
   }
 
+  getItemByName(gameName: string) {
+    for (let i = 0; i <= ITEMS.length - 1; i++) {
+      if(ITEMS[i].name === gameName) {
+        return ITEMS[i];
+      }
+    }
+  }
+
 }

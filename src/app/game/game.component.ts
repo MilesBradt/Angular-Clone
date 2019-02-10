@@ -15,9 +15,14 @@ import { Location } from '@angular/common';
   export class GameComponent implements OnInit {
   items: Item[];
   gameName: string = null;
+  gameToDisplay: Item;
 
 
-  constructor(private itemService: ItemService, private router: Router, private route: ActivatedRoute, private location: Location) { }
+  constructor(
+    private itemService: ItemService,
+    private router: Router,
+    private route: ActivatedRoute,
+    private location: Location) { }
 
   goToDetailPage(clickedGame: Item) {
     this.router.navigate(['game', clickedGame.name])
@@ -28,6 +33,7 @@ import { Location } from '@angular/common';
     this.route.params.forEach((urlParameters) => {
       this.gameName = urlParameters['name'];
     })
+    this.gameToDisplay = this.itemService.getItemByName(this.gameName);
   }
 
   }
