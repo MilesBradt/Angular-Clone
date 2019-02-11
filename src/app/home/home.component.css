@@ -1,0 +1,16 @@
+#popular-title {
+  text-align: center;
+}
+
+#games-list-title {
+  margin-top: 50px;
+}
+
+#popular-now {
+  display: flex;
+  margin: 0 auto;
+}
+
+.games {
+  margin: 0 auto;
+}
