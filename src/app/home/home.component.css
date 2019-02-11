@@ -1,5 +1,8 @@
+
+
 #popular-title {
   text-align: center;
+  color: #D1DBBD;
 }
 
 #games-list-title {
@@ -11,6 +14,23 @@
   margin: 0 auto;
 }
 
+.transparent-box {
+  background-color: rgba(0, 0, 0, 0.81) !important;
+}
+
 .games {
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin: 0 auto;
+  color: #D1DBBD;
+}
+
+#games-list-title {
+  color: #D1DBBD;
+}
+
+.list-of-games {
+  width: 250px;
+  float: left;
+  color: #D1DBBD;
 }

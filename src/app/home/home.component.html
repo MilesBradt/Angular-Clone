@@ -1,39 +1,43 @@
-<h2 id="popular-title">Popular Now</h2>
-  <div id="popular-now">
-    <div class="row">
-      <div class=" games col-sm-2">
-        <img width="150" src="../assets/images/Celeste.png" alt="">
-        Game: <a (click)="goToDetailPage(items[0])"> {{items[0].name}} </a>
-        <br>
-        Category: {{items[0].category}}
+  <div class="transparent-box container">
+    <h2 id="popular-title">Popular Now</h2>
+
+    <div id="popular-Now">
+      <div class="row">
+        <div class=" games col-sm-2">
+          <img width="150" src="../assets/images/Celeste.png" alt="">
+          Game: <a (click)="goToDetailPage(items[0])"> {{items[0].name}} </a>
+          <br>
+          Category: {{items[0].category}}
+        </div>
+        <div class="games col-sm-2">
+          <img width="150" src="../assets/images/mario64.jpg" alt="">
+          Game: <a (click)="goToDetailPage(items[1])"> {{items[1].name}} </a>
+          <br>
+          Category: {{items[1].category}}
+        </div>
+        <div class="games col-sm-2">
+          <img width="150" src="../assets/images/oot.jpg" alt="">
+          Game: <a (click)="goToDetailPage(items[2])"> {{items[2].name}} </a>
+          <br>
+          Category: {{items[2].category}}
+        </div>
+        <div class="games col-sm-2">
+          <img width="150" src="../assets/images/pape.jpg" alt="">
+          Game: <a (click)="goToDetailPage(items[3])"> {{items[3].name}} </a>
+          <br>
+          Category: {{items[3].category}}
+        </div>
       </div>
-      <div class="games col-sm-2">
-        <img width="150" src="../assets/images/mario64.jpg" alt="">
-        Game: <a (click)="goToDetailPage(items[1])"> {{items[1].name}} </a>
+      <div class="list-of-games container">
         <br>
-        Category: {{items[1].category}}
-      </div>
-      <div class="games col-sm-2">
-        <img width="150" src="../assets/images/oot.jpg" alt="">
-        Game: <a (click)="goToDetailPage(items[2])"> {{items[2].name}} </a>
-        <br>
-        Category: {{items[2].category}}
-      </div>
-      <div class="games col-sm-2">
-        <img width="150" src="../assets/images/pape.jpg" alt="">
-        Game: <a (click)="goToDetailPage(items[3])"> {{items[3].name}} </a>
-        <br>
-        Category: {{items[3].category}}
+        <div class="transparent-box">
+          <h2 id="games-list-title">List of Games</h2>
+          <div *ngFor="let item of items" class="panel panel-default">
+            <ul>
+              <li><a (click)="goToDetailPage(item)">{{item.name}}</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-    <div class="container">
-      <h2 id="games-list-title">List of Games</h2>
-      <br>
-      <div *ngFor="let item of items" class="panel panel-default">
-        <ul>
-          <li><a (click)="goToDetailPage(item)">{{item.name}}</a></li>
-        </ul>
-      </div>
     </div>
