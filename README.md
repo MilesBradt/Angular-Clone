@@ -9,6 +9,8 @@ So far this is a framework of seeing a game list on a homepage and not even bare
 
 ## WIP plans
 
+* Proper naming of elements
+
 * Database with user input
 
 * Expand on game details: average run length, user vote on difficulty, link to leaderboards, etc.
@@ -20,7 +22,6 @@ So far this is a framework of seeing a game list on a homepage and not even bare
 * CSS styling
 
 * Proper image edits
-
 
 ## How to run
 
