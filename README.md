@@ -1,41 +1,26 @@
-# Etsy Clone (WIP)
+# Speedrun Guides (WIP)
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
 
 ## Description
-So far this is only a small framework for the homepage of [Etsy](https://www.etsy.com/) built in Angular
+So far this is only a small framework for Speedrun Guides, the plan is to have users in communities build guides for learning new speedruns on an easy to use site with easy to follow instructions all in one place
 
 ## What this includes
-So far this is a none interactive webpage with basic components fitted together
+So far this is a framework of seeing a game list on a homepage and not even bare minimum of game details
 
 ## WIP plans
 
-* Proper communication between components
+* Database with user input
 
-* Routing to view more information on items and mock cart to checkout
+* Expand on game details: average run length, user vote on difficulty, link to leaderboards, etc.
 
-* Actual databases to store mock users and items for the website to work with
+* Tabs per category for games, places to display guides and iframes for links to videos
+
+* Display route (for speedruns) layout with options to link to videos
 
 * CSS styling
 
 * Proper image edits
 
-## How to get there
-Next steps include:
-  * Having reviews pull users and item value from their own components rather than copy them
-
-  * Adding extra items and users
-
-  * Add routing to see further item/user details
-
-  * Add search feature to route to item details (might only be exact name of item)
-
-  * Add shop for gifts bar with mock items
-
-  * Create database for mock items and users, translate to work with website
-
-  * Possible other ideas as they come
-
-  * CSS styling and image editing
 
 ## How to run
 
